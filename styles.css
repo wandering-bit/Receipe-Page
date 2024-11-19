@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#background {
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#maincard {
+    width: 260px;
+    height: 650px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+/* Image */
+#imageholder {
+    width: 100%;
+    height: 120px;
+    /* background-color: red; */
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainheading h1 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: Young Serif;
+    font-weight: 400;
+    color: black;
+}
+
+#mainheading p {
+    font-size: 6px;
+    margin-top: 5px;
+    font-family: Outfit;
+}
+
+#perp-time-box {
+    background-color: hsl(330, 100%, 98%);
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#perp-time-box h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 9px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+#perp-time-box ul {
+    list-style-position: inside;
+    /* margin-left: 5px; */
+}
+
+#perp-time-box li {
+    color: hsl(332, 51%, 32%);
+    font-size: 5px;
+    margin-top: 5px;
+}
+
+#perp-time-box li span {
+    font-size: 7px;
+}
+
+.subtopic b {
+    font-weight: 700;
+}
+
+#ingredients {
+    margin-top: 10px;
+}
+
+#ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+#ingredients ul {
+    list-style-position: inside;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+#ingredients li {
+    margin-top: 0px;
+    color: hsl(14, 45%, 36%);
+    font-size: 4px;
+    margin-top: 5px;
+}
+
+#ingredients li span {
+    font-size: 7px;
+}
+
+
+#instructions {
+    margin-top: 10px;
+}
+
+#instructions h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+#instructions ol {
+    list-style-position: outside;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#instructions li {
+    color: hsl(14, 45%, 36%);
+    font-size: 6px;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: Outfit;
+}
+
+#instructions li span {
+    font-size: 6px;
+    font-weight: 400;
+}
+
+#nutrition {
+    margin-top: 10px;
+}
+
+#nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+#nutrition p {
+    font-size: 7px;
+    margin-top: 7px;
+}
+
+#table {
+    margin-top: 10px;
+}
+
+.tabledata {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+#head {
+    font-size: 7px;
+    width: 100%;
+}
+
+#data {
+    font-size: 7px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+li {
+    padding-left: 5px;
+}
